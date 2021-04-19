@@ -38,6 +38,12 @@ Demo预览图如下：
 
 ### Support 版本
 
+Gradle：
+在dependencies{}中添加引用：
+```
+implementation 'com.kongzue.baseframework:baseframework:6.7.9'
+```
+
 Maven仓库：
 ```
 <dependency>
@@ -47,30 +53,12 @@ Maven仓库：
   <type>pom</type>
 </dependency>
 ```
-Gradle：
-在dependencies{}中添加引用：
-```
-implementation 'com.kongzue.baseframework:baseframework:6.7.9'
-```
 
 ### AndroidX 版本
 
-⚡ 另外提供 AndroidX 版本，代码详见 [分支](https://github.com/kongzue/BaseFramework/tree/androidx)
+要使用 AndroidX 版本请前往：
 
-Maven仓库：
-```
-<dependency>
-  <groupId>com.kongzue.baseframeworkx</groupId>
-  <artifactId>baseframework</artifactId>
-  <version>6.7.9</version>
-  <type>pom</type>
-</dependency>
-```
-Gradle：
-在dependencies{}中添加引用：
-```
-implementation 'com.kongzue.baseframeworkx:baseframework:6.7.9'
-```
+[Kongzue BaseFramework(AndroidX)](https://github.com/kongzue/BaseFramework)
 
 ## 使用提示
     
